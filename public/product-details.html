@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <script src="assets/vendors/jquery/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/components.js"></script>
+    <!-- Head content will be loaded dynamically -->
+</head>
+
+<body class="custom-cursor">
+
+    <div class="custom-cursor__cursor"></div>
+    <div class="custom-cursor__cursor-two"></div>
+
+    <div class="preloader">
+        <div class="preloader__image" style="background-image: url(assets/images/loader.png);"></div>
+    </div>
+    <!-- /.preloader -->
+    <div class="page-wrapper">
+        <section class="topbar">
+    <div class="container-fluid">
+        <div class="topbar__wrapper">
+            <ul class="list-unstyled topbar__list">
+                <li>
+                    <span class="fas fa-envelope"></span>
+                    <a href="mailto:needhelp@company.com" >info@nemr-company.com</a>
+                </li>
+                <li data-lang="footerAbouText2">
+                    <span class="fas fa-map-marker" ></span>
+                    بيرل مول ، B6 ، F2 ، مكتب 211 ، القاهرة الجديدة ، مصر
+                </li>
+                <li data-lang="footerAbouText1">
+                    <span class="fas fa-map-marker" ></span>
+                    فيلا 64 بجوار القاهرة الجديدة أكاديمية, التجمع الخامس, القاهرة الجديدة, مصر
+                </li>
+                
+            </ul><!-- /.icon-box -->
+            <div class="topbar__social">
+                <a href="https://www.facebook.com/elnemrdevelopment"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/elnemr_development"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/elnemr-development/"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div><!-- /.social-links -->
+        </div>
+    </div>
+</section><!-- /.topbar-header -->
+<header class="main-header">
+    <nav class="main-menu">
+        <div class="container-fluid">
+            <div class="main-menu__logo">
+                <a href="index.html">
+                    <img src="assets/images/logo-light.png" width="96" height="34" alt="Ogency">
+                </a>
+            </div><!-- /.main-menu__logo -->
+            <div class="main-menu__nav">
+                <ul class="main-menu__list ">
+                    <li class="dropdown megamenu">
+                        <a href="index.html" data-lang="Home">الرئيسية</a>
+                    </li>
+
+                    <li><a href="about.html" data-lang="About"> نبذة عنّا
+                    </a></li>
+                    
+                    <li><a href="portfolio.html" data-lang="projects">مشاريعنا   
+                    </a></li>
+
+                    <li><a href="services.html" data-lang="Services">خدماتنا   
+                    </a></li>
+
+                    <li><a href="product-details.html"data-lang="Reviews">آراء العملاء   
+                    </a></li>
+
+                    <li><a href="blog.html" data-lang="Blog">المدونة</a></li>
+
+                    <li><a href="team-details.html" data-lang="OurTeam">فريقنا  </a></li>
+
+                    <li><a href="contact.html" data-lang="Contact">تواصل معنا  
+                    </a></li>
+                </ul>
+            </div><!-- /.main-menu__nav -->
+            <div class="main-menu__right">
+                <a href="#" class="main-menu__toggler mobile-nav__toggler">
+                    <i class="fa fa-bars"></i>
+                </a><!-- /.mobile menu btn -->
+                
+                <div class="language-switcher">
+                            <button id="langToggle" class="lang-btn" onclick="toggleLanguage()">
+                                <i class="fas fa-globe"></i>
+                                <span class="lang-text">AR</span>
+                            </button>
+                        </div>
+
+                        <a href="tel:16893" class="main-menu__phone">
+                    <i class="fas fa-phone-alt"></i>
+                    <span class="phone-number" data-lang="phone">اتصل بنا <strong>16893</strong></span>
+                </a>
+            </div><!-- /.main-menu__right -->
+        </div><!-- /.container -->
+    </nav>
+    <!-- /.main-menu -->
+</header><!-- /.main-header -->
+
+ 
+        <div class="stricky-header stricked-menu main-menu">
+            <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
+        </div><!-- /.stricky-header -->
+        <section class="page-header">
+            <div class="page-header__shape3 page-header__shape3 page-header__shape3_Review wow slideInRight" data-wow-delay="300ms"></div><!-- /.page-header__shape3 -->
+            <div class="container">
+                <h2 class="page-header__title" data-lang="ReviewPageTitle">
+                    آراء العملاء</h2><!-- /.page-title -->
+            </div><!-- /.container -->
+        </section><!-- /.page-header -->
+        <!-- Products Start -->
+
+
+        <section class="product-details">
+            <div class="container">
+
+                <!-- /.product-description -->
+               <!-- <div class="product-details__description wow fadeInUp" data-wow-delay="300ms">
+                    <h3 class="product-details__description__title">Description</h3>
+                    <p class="product-details__description__text">
+                        Lorem ipsum dolor sit amet, cibo mundi ea duo, vim exerci phaedrum. There are many variations of passages of Lorem Ipsum available,
+                        but the majority have alteration in some injected or words which don't look even slightly believable. If you are going to use a
+                        passage of Lorem Ipsum, you need to be sure there isn't anything embarrang hidden in the middle of text.
+                    </p>
+                    <ul class="list-unstyled product-details__description__lists">
+                        <li><span class="icon-right-arrow"></span>Nam at elit nec neque suscipit gravida.</li>
+                        <li><span class="icon-right-arrow"></span>Aenean egestas orci eu maximus tincidunt.</li>
+                        <li><span class="icon-right-arrow"></span>Curabitur vel turpis id tellus cursus laoreet.</li>
+                    </ul>
+                    <p class="product-details__description__text">
+                        All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.
+                        It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
+                    </p>
+                </div>-->
+                <!-- /.product-description -->
+                <!-- /.product-comment -->
+                <div class="product-details__comment wow fadeInUp" data-wow-delay="400ms">
+                <!--  <h3 class="product-details__review-title">2 reviews</h3>-->
+                    <!--Start Comment Box-->
+                    <div class="item mb-5 mx-5">
+                        <div class="testimonial-one__item">
+                            <div class="testimonial-one__content">
+
+                                <div class="testimonial-one__meta">
+                                    <h5 class="testimonial-one__title">  الاستاذ                                    </h5>
+                                    <span class="testimonial-one__designation">ايمن علام 
+                                    </span>
+                                </div><!-- testimonial-meta -->
+                                <div class="testimonial-one__ratings">
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div><!-- testimonial-ratings -->
+                                <div class="testimonial-one__quote">
+                                    صباح الخير .. مفيش شك أن مرة تانية حابب اشكر الشركة المنفذة المحترمة وعلي رأسهم الخلوق المحترم أ/ محمود نصير و مهندس محمود شرف ال كان ومازال بيتواصل مع أي حد كان محتاج يستفسر عن حاجة .. كنت كل اجازة انزل مصر اصور فيها جزء من الإنشاءات... تحياتي لكم جميعا وأطيب التهاني علي استلامكم لوحداتكم جيران اعزاء وخالص التهاني للسادة شركة النمر بالتوفيق ومن نجاح لنجاح
+                                </div><!-- testimonial-quote -->
+
+                            </div><!-- testimonial-content -->
+                        </div>
+                    </div>
+                    <!--End Comment Box-->
+                    <!--Start Comment Box-->
+                    <div class="item mb-5 mx-5">
+                        <div class="testimonial-one__item">
+                            <div class="testimonial-one__content">
+
+                                <div class="testimonial-one__meta">
+                                    <h5 class="testimonial-one__title">المستشار</h5>
+                                    <span class="testimonial-one__designation">محمد محمود</span>
+                                </div><!-- testimonial-meta -->
+                                <div class="testimonial-one__ratings">
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div><!-- testimonial-ratings -->
+                                <div class="testimonial-one__quote">
+                                    انا بجد اتبسطت اوي بالتعامل معاكوا و استلمت شقتي في اقل من ٦ شهور و مكنتش مصدق شكراً جداً للمهندس احمد شرف و مستر محمود نصير و فعلاً مجهودكوا و تعبكوا واضح في كل التفاصيل من اول المدخل الرخام و شكل الاسانسير و الوجهة فعلاً نفس التفاصيل وقبل المواعيد
+                                </div><!-- testimonial-quote -->
+                            </div><!-- testimonial-content -->
+                        </div>
+                    </div>
+
+                    <div class="item mb-5 mx-5">
+                        <div class="testimonial-one__item">
+                            <div class="testimonial-one__content">
+
+                                <div class="testimonial-one__meta">
+                                    <span class="testimonial-one__designation">إيمان عمر
+                                    </span>
+                                </div><!-- testimonial-meta -->
+                                <div class="testimonial-one__ratings">
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div><!-- testimonial-ratings -->
+                                <div class="testimonial-one__quote">
+                                    بشكر شركة النمر علي الالتزام و المصداقية و تسلمها قبل المواعيد و بمواصفات هايلة اكتر من ممتازة في كمبوند الديبلوماسيين
+                                    و بشكر جداً مستر محمود نصير و المهندس احمد نصير علي كل المجهود المبذول و ان شاء الله من نجاح لنجاح
+                                </div><!-- testimonial-quote -->
+                            </div><!-- testimonial-content -->
+                        </div>
+                    </div>
+
+                    <div class="item mb-5 mx-5">
+                        <div class="testimonial-one__item">
+                            <div class="testimonial-one__content">
+
+                                <div class="testimonial-one__meta">
+                                    <h5 class="testimonial-one__title">المستشار</h5>
+                                    <span class="testimonial-one__designation"> أحمد عبد الرحمن</span>
+                                </div><!-- testimonial-meta -->
+                                <div class="testimonial-one__ratings">
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div><!-- testimonial-ratings -->
+                                <div class="testimonial-one__quote">
+                                    انا اشترت و شطبت شقتي من شركة النمر في فيلا البنفسج 5 مع مستر محمود نصير و المهندس احمد نصير
+                                    و بجد بشكرك علي كل الشغل سواء التشطيب الداخلي او حتي الخارجي من كاميرات و انتركم و كل التفاصيل حتي لاند سكيب و الصيانة علي اعلي مستوي
+                                </div><!-- testimonial-quote -->
+                            </div><!-- testimonial-content -->
+                        </div>
+                    </div>
+
+                    <div class="item mb-5 mx-5">
+                        <div class="testimonial-one__item">
+                            <div class="testimonial-one__content">
+
+                                <div class="testimonial-one__meta">
+                                    <h5 class="testimonial-one__title">المهندس </h5>
+                                    <span class="testimonial-one__designation"> محمد رفعت</span>
+                                </div><!-- testimonial-meta -->
+                                <div class="testimonial-one__ratings">
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div><!-- testimonial-ratings -->
+                                <div class="testimonial-one__quote">
+                                    انا اشتريت مع شركة النمر مع مستر / محمود نصير في النرجس من أكثر من سنتين و رشحتكوا لابن عمي و اتعامل مع الشركة واشتري شقة في البنفسج وبجد بشكركوا على الأمانة والاهتمام و المواعيد المظبوطة.
+                                </div><!-- testimonial-quote -->
+                            </div><!-- testimonial-content -->
+                        </div>
+                    </div>
+
+
+                    <!--End Comment Box-->
+                </div>
+                <!-- /.product-comment -->
+                <!-- /.product-comment-form -->
+               <!-- <div class="product-details__form wow fadeInUp" data-wow-delay="500ms">
+                    <h3 class="product-details__form-title">Add a review</h3>
+                    <div class="product-details__form-ratings">
+                        <p class="product-details__form-ratings__label">Rate this product?</p>
+                        <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span>
+                    </div>
+                    <form action="assets/inc/sendemail.php" class="review-form contact-form-validated" novalidate="novalidate">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="review-form__input-box">
+                                    <textarea name="message" placeholder="Write  a comment"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="review-form__input-box">
+                                    <input type="text" placeholder="Your name" name="name">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="review-form__input-box">
+                                    <input type="email" placeholder="Email address" name="email">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <button type="submit" class="nisoz-btn">
+                                    <span class="nisoz-btn__shape"></span><span class="nisoz-btn__shape"></span><span class="nisoz-btn__shape"></span><span class="nisoz-btn__shape"></span>
+                                    <span class="nisoz-btn__text">Submit Review</span>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="result"></div>
+                </div>-->
+                <!-- /.product-comment-form -->
+            </div>
+        </section>
+        <!-- Products End -->
+
+        <footer class="main-footer">
+            <div class="main-footer__bg" style="background-image: url(assets/images/shapes/footer-bg-1.png);"></div>
+            <div class="container">
+                <div class="main-footer__top wow fadeInUp" data-wow-delay="100ms">
+                    <a href="index.html" class="main-footer__logo">
+                        <img src="assets/images/footer-logo.png" alt="nisoz" width="96" height="34">
+                    </a><!-- /.footer-logo -->
+                    <div class="col-12 col-lg-6 d-flex justify-content-center ">
+                        <p class="text-white text-center" data-lang="footerPragraph">النمر اسمٌ يرتبط بالثقة في مجال
+                            العقارات لأكثر من 25 عامًا. نقدم خبرة شاملة تمتد من البناء إلى التطوير والتعاقد، ونضمن لك
+                            مرافقتك في كل خطوة لتحقيق استثمار آمن وناجح بنسبة 100%.</p>
+                    </div>
+                    <div class="main-footer__social">
+                        <a href="https://www.facebook.com/elnemrdevelopment"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/elnemr_development"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/elnemr-development/"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+    
+                    </div><!-- /.footer-social -->
+                </div><!-- footer-top -->
+                <div class="row d-flex justify-content-between">
+                    <div class="col-lg-2 col-md-4 wow fadeInUp" data-wow-delay="200ms">
+                        <div class="main-footer__navmenu">
+                            <ul>
+                                <li><a href="about.html" data-lang="footerAbout">عنّا</a></li>
+                                <li><a href="services.html" data-lang="footerServices">ماذا نقدم</a></li>
+                                <li><a href="product-details.html" data-lang="footerBlog">آراء العملاء</a></li>
+                            </ul><!-- /.list-unstyled -->
+                        </div><!-- /.footer-menu -->
+                    </div>
+                    <div class="col-lg-2 col-md-4 wow fadeInUp" data-wow-delay="300ms">
+                        <div class="main-footer__navmenu">
+                            <ul>
+                                <li><a href="contact.html" data-lang="footercontact">تواصل معنا</a></li>
+                                <li><a href="portfolio.html" data-lang="footerprojects">مشاريعنا </a></li>
+    
+    
+                                
+    
+                            </ul><!-- /.list-unstyled -->
+                        </div><!-- /.footer-menu -->
+                    </div>
+                    <div class="col-lg-3 col-md-4 wow fadeInUp" data-wow-delay="400ms">
+                        <div class="main-footer__about">
+                            <p class="main-footer__about__text" data-lang="footerAbouText2">بيرل مول ، B6 ، F2 ، مكتب
+                                211 ، القاهرة الجديدة ، مصر</p>
+                            <p class="main-footer__about__text" data-lang="footerAbouText1">فيلا 64 بجوار القاهرة
+                                الجديدة أكاديمية, التجمع الخامس, القاهرة الجديدة, مصر </p>
+    
+                            <ul class="main-footer__about__info">
+                                <li><span class="fas fa-phone-square mx-2"></span><a href="tel:+923680006800">16893</a>
+                                </li>
+                                <li><span class="fas fa-envelope mx-2"></span><a
+                                        href="mailto:needhelp@company.com">info@nemr-company.com</a></li>
+                            </ul>
+                        </div><!-- /.footer-about -->
+                    </div>
+    
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </footer><!-- /.main-footer -->
+    
+        <!--  <section class="copyright text-center">
+            <div class="container wow fadeInUp" data-wow-delay="500ms">
+                <p class="copyright__text">© Copyright <span class="dynamic-year"></span>by <a href="index.html">Nisoz Template</a></p>
+            </div>
+        </section>-->
+    
+    </div><!-- /.page-wrapper -->
+    
+    
+    <div class="mobile-nav__wrapper">
+        <div class="mobile-nav__overlay mobile-nav__toggler"></div>
+        <!-- /.mobile-nav__overlay -->
+        <div class="mobile-nav__content">
+            <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
+            <div class="logo-box">
+                <a href="index.html" aria-label="logo image"><img src="assets/images/logo-light.png" width="96"
+                        height="auto" alt="nisoz" /></a>
+            </div>
+            <!-- /.logo-box -->
+            <div class="mobile-nav__container"></div>
+            <!-- /.mobile-nav__container -->
+            <ul class="mobile-nav__contact list-unstyled">
+                <li>
+                    <i class="fas fa-envelope col-2"></i>
+                    <span class="col-1"></span>
+                    <a href="info@nemr-company.com" class="col-8"> info@nemr-company.com</a>
+                </li>
+                <li>
+                    <i class="fa fa-phone-alt col-2"></i>
+                    <span class="col-1"></span>
+                    <a href="tel:16893" class="col-8">16893</a>
+                </li>
+            </ul><!-- /.mobile-nav__contact -->
+            <div class="mobile-nav__social justify-content-between w-50">
+                <a href="https://www.facebook.com/elnemrdevelopment"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/elnemr_development"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/elnemr-development/"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+    
+            </div><!-- /.mobile-nav__social -->
+        </div>
+        <!-- /.mobile-nav__content -->
+    </div>
+    <!-- /.mobile-nav__wrapper -->
+    
+    <div class="search-popup">
+        <div class="search-popup__overlay search-toggler"></div>
+        <!-- /.search-popup__overlay -->
+        <div class="search-popup__content">
+            <form role="search" method="get" class="search-popup__form" action="#">
+                <input type="text" id="search" placeholder="Search Here..." />
+                <button type="submit" aria-label="search submit" class="nisoz-btn">
+                    <span class="nisoz-btn__shape"></span><span class="nisoz-btn__shape"></span><span
+                        class="nisoz-btn__shape"></span><span class="nisoz-btn__shape"></span>
+                    <span class="nisoz-btn__text"><i class="icon-magnifying-glass"></i></span>
+                </button>
+            </form>
+        </div>
+        <!-- /.search-popup__content -->
+    </div>
+    <!-- /.search-popup -->
+    
+    <!-- back-to-top-start -->
+    <a href="#" class="scroll-top">
+        <svg class="scroll-top__circle" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </a>
+    <!-- back-to-top-end -->
+
+        <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>
+<script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
+<script src="assets/vendors/jarallax/jarallax.min.js"></script>
+<script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
+<script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
+<script src="assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
+<script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
+<script src="assets/vendors/nouislider/nouislider.min.js"></script>
+<script src="assets/vendors/odometer/odometer.min.js"></script>
+<script src="assets/vendors/tiny-slider/tiny-slider.min.js"></script>
+<script src="assets/vendors/owl-carousel/owl.carousel.min.js"></script>
+<script src="assets/vendors/wnumb/wNumb.min.js"></script>
+<script src="assets/vendors/jquery-circleType/jquery.circleType.js"></script>
+<script src="assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
+<script src="assets/vendors/tilt/tilt.jquery.js"></script>
+<script src="assets/vendors/wow/wow.js"></script>
+<script src="assets/vendors/isotope/isotope.js"></script>
+<script src="assets/vendors/countdown/countdown.min.js"></script>
+
+
+<!-- template js -->
+<script src="assets/js/nisoz.js"></script>
+
+
+<script src="assets/js/translation.js"></script>
+    
+</body>
+
+</html>

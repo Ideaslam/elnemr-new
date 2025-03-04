@@ -1,0 +1,35 @@
+/* Phone number styling */
+.main-menu__phone {
+    
+    align-items: center !important;
+    gap: 8px !important;
+    padding: 8px 15px !important;
+    border-radius: 5px !important;
+    transition: all 0.3s ease !important;
+}
+
+.main-menu__phone i {
+    font-size: 16px !important;
+    color: #e0a965 !important;
+}
+
+.main-menu__phone .phone-number {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+}
+
+.main-menu__phone .phone-number strong {
+    display: inline-block !important;
+    margin-right: 4px !important;
+    font-weight: 700 !important;
+    color: #e0a965 !important;
+}
+
+[dir="rtl"] .main-menu__phone .phone-number strong {
+    margin-right: 0 !important;
+    margin-left: 4px !important;
+}
+
+.main-menu__phone:hover {
+    background-color: rgba(224, 169, 101, 0.1) !important;
+}

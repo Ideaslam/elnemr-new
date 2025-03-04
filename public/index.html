@@ -1,0 +1,1638 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <script src="assets/vendors/jquery/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/components.js"></script>
+    <!-- Head content will be loaded dynamically -->
+  </head>
+
+  <body class="custom-cursor">
+    <div class="custom-cursor__cursor"></div>
+    <div class="custom-cursor__cursor-two"></div>
+
+    <div class="preloader">
+      <div
+        class="preloader__image"
+        style="background-image: url(assets/images/loader.png)"
+      ></div>
+    </div>
+    <!-- /.preloader -->
+    <div class="page-wrapper">
+      <section class="topbar">
+        <div class="container-fluid">
+          <div class="topbar__wrapper">
+            <ul class="list-unstyled topbar__list">
+              <li>
+                <span class="fas fa-envelope"></span>
+                <a href="mailto:needhelp@company.com">info@nemr-company.com</a>
+              </li>
+              <li data-lang="footerAbouText2">
+                <span class="fas fa-map-marker"></span>
+                بيرل مول ، B6 ، F2 ، مكتب 211 ، القاهرة الجديدة ، مصر
+              </li>
+              <li data-lang="footerAbouText1">
+                <span class="fas fa-map-marker"></span>
+                فيلا 64 بجوار القاهرة الجديدة أكاديمية, التجمع الخامس, القاهرة
+                الجديدة, مصر
+              </li>
+            </ul>
+            <!-- /.icon-box -->
+            <div class="topbar__social">
+              <a href="https://www.facebook.com/elnemrdevelopment"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="https://www.instagram.com/elnemr_development"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://www.linkedin.com/company/elnemr-development/"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+            </div>
+            <!-- /.social-links -->
+          </div>
+        </div>
+      </section>
+      <!-- /.topbar-header -->
+      <header class="main-header">
+        <nav class="main-menu">
+          <div class="container-fluid">
+            <div class="main-menu__logo">
+              <a href="index.html">
+                <img
+                  src="assets/images/logo-light.png"
+                  width="96"
+                  height="34"
+                  alt="Ogency"
+                />
+              </a>
+            </div>
+            <!-- /.main-menu__logo -->
+            <div class="main-menu__nav">
+              <ul class="main-menu__list">
+                <li class="">
+                  <a href="index.html" data-lang="Home">الرئيسية</a>
+                </li>
+
+                <li><a href="about.html" data-lang="About"> نبذة عنّا </a></li>
+
+                <li>
+                  <a href="portfolio.html" data-lang="projects">مشاريعنا </a>
+                </li>
+
+                <li>
+                  <a href="services.html" data-lang="Services">خدماتنا </a>
+                </li>
+
+                <li>
+                  <a href="product-details.html" data-lang="Reviews"
+                    >آراء العملاء
+                  </a>
+                </li>
+
+                <li><a href="blog.html" data-lang="Blog">المدونة</a></li>
+
+                <li>
+                  <a href="team-details.html" data-lang="OurTeam">فريقنا </a>
+                </li>
+
+                <li>
+                  <a href="contact.html" data-lang="Contact">تواصل معنا </a>
+                </li>
+              </ul>
+            </div>
+            <!-- /.main-menu__nav -->
+            <div class="main-menu__right">
+              <a href="#" class="main-menu__toggler mobile-nav__toggler">
+                <i class="fa fa-bars"></i> </a
+              ><!-- /.mobile menu btn -->
+
+              <div class="language-switcher">
+                <button
+                  id="langToggle"
+                  class="lang-btn"
+                  onclick="toggleLanguage()"
+                >
+                  <i class="fas fa-globe"></i>
+                  <span class="lang-text">AR</span>
+                </button>
+              </div>
+
+              <a href="tel:16893" class="main-menu__phone">
+                <i class="fas fa-phone-alt"></i>
+                <span class="phone-number" data-lang="phone"
+                  >اتصل بنا <strong>16893</strong></span
+                >
+              </a>
+            </div>
+            <!-- /.main-menu__right -->
+          </div>
+          <!-- /.container -->
+        </nav>
+        <!-- /.main-menu -->
+      </header>
+      <!-- /.main-header -->
+
+      <div class="stricky-header stricked-menu main-menu">
+        <div class="sticky-header__content"></div>
+        <!-- /.sticky-header__content -->
+      </div>
+      <!-- /.stricky-header -->
+      <!--Main Slider Start-->
+      <section class="main-slider">
+        <div
+          dir="ltr"
+          class="main-slider__one nisoz-owl__carousel owl-carousel text"
+          data-owl-options='{
+        "loop": true,
+        "animateOut": "slideOutDown",
+        "animateIn": "fadeIn",
+        "items": 1,
+        "smartSpeed": 1000, 
+        "autoplay": true, 
+        "autoplayTimeout": 6000, 
+        "autoplayHoverPause": true,
+        "nav": false,
+        "dots": true,
+        "margin": 0
+        }'
+        >
+          <div class="item" dir="">
+            <!-- slider item start -->
+            <div class="main-slider__item">
+              <div class="main-slider__shape-3">
+                <img
+                  src="assets/images/backgrounds/slier-1-bg-1.jpg"
+                  alt="nisoz"
+                />
+              </div>
+              <!-- shape-three -->
+
+              <div class="container">
+                <div class="row">
+                  <div class="col-xl-8">
+                    <div class="main-slider__content">
+                      <h2
+                        class="main-slider__title"
+                        data-lang="mainSliderTitle2"
+                      >
+                        25 عامًا من الخبرة في البناء
+                      </h2>
+                      <!-- slider-title -->
+                      <p class="main-slider__text" data-lang="mainSliderText1">
+                        نقدم لك تجربة عقارية مميزة تفوق التوقعات
+                      </p>
+                      <!-- slider-text -->
+                      <div class="main-slider__btn">
+                        <a href="about.html" class="nisoz-btn">
+                          <span class="nisoz-btn__shape"></span
+                          ><span class="nisoz-btn__shape"></span
+                          ><span class="nisoz-btn__shape"></span
+                          ><span class="nisoz-btn__shape"></span>
+                          <span
+                            class="nisoz-btn__text"
+                            data-lang="mainSliderBtn1"
+                            >اكتشف المزيد</span
+                          > </a
+                        ><!-- /.btn -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- slider item end -->
+          <div class="item" dir="">
+            <!-- slider item start -->
+            <div class="main-slider__item">
+              <div class="main-slider__shape-3">
+                <img
+                  src="assets/images/backgrounds/slier-1-bg-2.jpg"
+                  alt="nisoz"
+                />
+              </div>
+              <!-- shape-three -->
+
+              <!--  <div class="main-slider__shape-1">
+                            <img src="assets/images/shapes/slider-1-bg-1.png" alt="nisoz">
+                        </div>
+                        <div class="main-slider__shape-2">
+                            <img src="assets/images/shapes/slider-1-shape-1.png" alt="nisoz">
+                        </div>
+                        <div class="main-slider__shape-4">
+                            <img src="assets/images/shapes/slider-1-shape-2.png" alt="nisoz">
+                        </div>-->
+
+              <div class="container">
+                <div class="row">
+                  <div class="col-xl-8">
+                    <div class="main-slider__content">
+                      <h2
+                        class="main-slider__title"
+                        data-lang="mainSliderTitle1"
+                      >
+                        مكانك الأمثل للإستثمار
+                      </h2>
+                      <!-- slider-title -->
+                      <p class="main-slider__text" data-lang="mainSliderText1">
+                        نقدم لك تجربة عقارية مميزة تفوق التوقعات
+                      </p>
+                      <!-- slider-text -->
+                      <div class="main-slider__btn">
+                        <a href="about.html" class="nisoz-btn">
+                          <span class="nisoz-btn__shape"></span
+                          ><span class="nisoz-btn__shape"></span
+                          ><span class="nisoz-btn__shape"></span
+                          ><span class="nisoz-btn__shape"></span>
+                          <span
+                            class="nisoz-btn__text"
+                            data-lang="mainSliderBtn1"
+                            >اكتشف المزيد</span
+                          > </a
+                        ><!-- /.btn -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- slider item end -->
+          <div class="item" dir="">
+            <!-- slider item start -->
+            <div class="main-slider__item">
+              <div class="main-slider__shape-3">
+                <img
+                  src="assets/images/backgrounds/slier-1-bg-3.jpg"
+                  alt="nisoz"
+                />
+              </div>
+              <!-- shape-three -->
+
+              <div class="container">
+                <div class="row">
+                  <div class="col-xl-8 pb-5">
+                    <div class="main-slider__content">
+                      <h2
+                        class="main-slider__title"
+                        data-lang="mainSliderTitle3"
+                      >
+                        نصنع لك الفخامة بتصميم يُلهم وجودة تدوم
+                      </h2>
+                      <!-- slider-title -->
+                      <p class="main-slider__text" data-lang="mainSliderText1">
+                        نقدم لك تجربة عقارية مميزة تفوق التوقعات
+                      </p>
+                      <!-- slider-text -->
+                      <div class="main-slider__btn">
+                        <a href="about.html" class="nisoz-btn">
+                          <span class="nisoz-btn__shape"></span
+                          ><span class="nisoz-btn__shape"></span
+                          ><span class="nisoz-btn__shape"></span
+                          ><span class="nisoz-btn__shape"></span>
+                          <span
+                            class="nisoz-btn__text"
+                            data-lang="mainSliderBtn1"
+                            >اكتشف المزيد
+                          </span> </a
+                        ><!-- /.btn -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- slider item end -->
+        </div>
+      </section>
+      <!--Main Slider End-->
+      <!-- About Start -->
+      <section class="about-one">
+        <div class="container">
+          <div class="row d-flex">
+            <div class="col-xl-6">
+              <div class="about-one__thumb">
+                <!-- about thumb start -->
+                <div
+                  class="about-one__thumb__one wow fadeInLeft"
+                  data-wow-delay="100ms"
+                >
+                  <img
+                    src="assets/images/resources/about-1-1.jpg"
+                    alt="nisoz"
+                  />
+                </div>
+                <div
+                  class="about-one__fact-wrapper wow fadeInUp"
+                  data-wow-delay="200ms"
+                >
+                  <div class="about-one__fact">
+                    <div class="about-one__fact__icon mx-2">
+                      <span class="icon-expertise"></span>
+                    </div>
+                    <!-- /.fact-one__icon -->
+                    <div class="about-one__fact__count">
+                      <span class="count-box">
+                        <span
+                          class="count-text"
+                          data-stop="25"
+                          data-speed="1500"
+                        ></span> </span
+                      >+
+                    </div>
+                    <!-- /.fact-one__count -->
+                    <h3 class="about-one__fact__title" data-lang="aboutTitle1">
+                      عاماً في سوق القاهرة الجديدة
+                    </h3>
+                    <!-- /.fact-one__title -->
+                  </div>
+                  <!-- /.fact-item -->
+                  <div class="about-one__fact">
+                    <div class="about-one__fact__icon mx-2">
+                      <span class="icon-development"></span>
+                    </div>
+                    <!-- /.fact-one__icon -->
+                    <div class="about-one__fact__count">
+                      <span class="count-box">
+                        <span
+                          class="count-text"
+                          data-stop="7"
+                          data-speed="1500"
+                        ></span> </span
+                      >+
+                    </div>
+                    <!-- /.fact-one__count -->
+                    <h3 class="about-one__fact__title" data-lang="aboutTitle2">
+                      عاماً في السوق العقاري المصري
+                    </h3>
+                    <!-- /.fact-one__title -->
+                  </div>
+                  <!-- /.fact-item -->
+                </div>
+              </div>
+              <!-- about thumb end -->
+            </div>
+            <div class="col-xl-6">
+              <div class="about-one__content">
+                <!-- about content start-->
+                <div class="section-title">
+                  <h2
+                    class="section-title__title"
+                    data-lang="sectionTitleTitleAbout"
+                  >
+                    من نحن
+                  </h2>
+                </div>
+                <!-- section-title -->
+                <p data-lang="aboutText1">
+                  في النمر للتطوير العقاري، نضع بصمتنا في عالم العقارات من خلال
+                  بناء مشاريع واسعة النطاق تتميز بالإبداع والتكنولوجيا المتطورة،
+                  مستهدفين تحسين نوعية حياة الناس اقتصاديًا واجتماعيًا وبيئيًا.
+                </p>
+                <p class="about-one__content__text" data-lang="aboutText">
+                  منذ انطلاقنا، التزمنا بتقديم حلول عقارية مبتكرة ترتقي بتجربة
+                  عملائنا وتلبي تطلعاتهم بأعلى معايير الجودة.
+                </p>
+
+                <a href="about.html" class="nisoz-btn about-one__progress">
+                  <span class="nisoz-btn__shape"></span
+                  ><span class="nisoz-btn__shape"></span
+                  ><span class="nisoz-btn__shape"></span
+                  ><span class="nisoz-btn__shape"></span>
+                  <span class="nisoz-btn__text" data-lang="AboutBtn"
+                    >من نحن</span
+                  > </a
+                ><!-- /.btn -->
+              </div>
+              <!-- about content end-->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="d-flex mx-3">
+        <!-- <div class="video-banner-layout2 bg-overlay text-center w-50 d-flex justify-content-center col-lg-6 col-md-12 " >
+                <a class="video__btn video__btn-white popup-video" href="assets/video/Spot El Nemr .mp4">
+                <img src="assets/video/5_page-0001.jpg" height="380px" alt="about" class="w-100">
+                    
+                    <div class="video__player">
+                    <i class="fa fa-play"></i>
+                    </div>
+                    <span class="video__btn-title color-white">Watch Our Video!</span>
+                </a>
+            </div>--><!-- /.video-banner -->
+        <div class="d-flex justify-content-center col-lg-6 col-md-12">
+          <video width="640" height="360" controls autoplay>
+            <source src="https://res.cloudinary.com/dgpsvwldt/video/upload/v1741046284/PlayHaus/Elnemr/videos/usuibkzn7mpguntuqeot.mp4" type="video/mp4" />
+            <source src="https://res.cloudinary.com/dgpsvwldt/video/upload/v1741046284/PlayHaus/Elnemr/videos/usuibkzn7mpguntuqeot.mp4" type="video/ogg" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="col-lg-6 col-md-12 m-2 d-flex justify-content-center px-3">
+          <p class="mx-5 fs-5" data-lang="p_video">
+            في سوق العقارات القوي والتنافسي، لا تنجح سوى الشركات المتميزة.
+            استطاعت شركة النمر خلال 8 سنوات من حصد النجاح في سوق العقارات، حيث
+            تمتاز الشركة من تسليم الوحدات السكنية في وقت قياسي، ووفرت للوحدات
+            كافة الخدمات المطلوبة وبأسعار تنافسي
+          </p>
+        </div>
+      </section>
+      <!-- About End -->
+
+      <!-- Service Start -->
+      <section class="service-one">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section-title text-center">
+                <h2
+                  class="section-title__title"
+                  data-lang="sectionTitleTitleService"
+                >
+                  ماذا نقدم
+                </h2>
+              </div>
+            </div>
+          </div>
+          <!--       <div class="row">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms">
+                        <div class="service-one__item">
+                            <div class="service-one__item__wrapper">
+                                <div class="service-one__item__hover" style="background-image: url(assets/images/shapes/service-1-hover-shape.png);"></div>
+                                <div class="service-one__item__number" data-lang="serviceItem">خدمة</div>
+                                <div class="clearfix"></div>
+                                <div class="service-one__item__icon">
+                                    <span class="icon-website-design"></span>
+                                </div>
+                                <h3 class="service-one__item__title" >
+                                    <a href="website-designing.html" data-lang="serviceItemTitle1">إدارة المشاريع
+                                    </a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms">
+                        <div class="service-one__item">
+                            <div class="service-one__item__wrapper">
+                                <div class="service-one__item__hover" style="background-image: url(assets/images/shapes/service-1-hover-shape.png);"></div>
+                                <div class="service-one__item__number" data-lang="serviceItem">خدمة </div>
+                                <div class="clearfix"></div>
+                                <div class="service-one__item__icon">
+                                    <span class="icon-website-development"></span>
+                                </div>
+                                <h3 class="service-one__item__title">
+                                    <a href="website-development.html" data-lang="serviceItemTitle2">تطوير العقارات السكنية                                    </a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms">
+                        <div class="service-one__item">
+                            <div class="service-one__item__wrapper">
+                                <div class="service-one__item__hover" style="background-image: url(assets/images/shapes/service-1-hover-shape.png);"></div>
+                                <div class="service-one__item__number" data-lang="serviceItem">خدمة </div>
+                                <div class="clearfix"></div>
+                                <div class="service-one__item__icon">
+                                    <span class="icon-mobile-application"></span>
+                                </div>
+                                <h3 class="service-one__item__title">
+                                    <a href="mobile-application.html" data-lang="serviceItemTitle3">خدمة استشارية                                    </a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="400ms">
+                        <div class="service-one__item">
+                            <div class="service-one__item__wrapper">
+                                <div class="service-one__item__hover" style="background-image: url(assets/images/shapes/service-1-hover-shape.png);"></div>
+                                <div class="service-one__item__number" data-lang="serviceItem">خدمة </div>
+                                <div class="clearfix"></div>
+                                <div class="service-one__item__icon">
+                                    <span class="icon-digital-marketing"></span>
+                                </div>
+                                <h3 class="service-one__item__title">
+                                    <a href="digital-marketing.html" data-lang="serviceItemTitle4">التجديد وإعادة التصميم                                    </a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="400ms">
+                        <div class="service-one__item">
+                            <div class="service-one__item__wrapper">
+                                <div class="service-one__item__hover" style="background-image: url(assets/images/shapes/service-1-hover-shape.png);"></div>
+                                <div class="service-one__item__number" data-lang="serviceItem">خدمة </div>
+                                <div class="clearfix"></div>
+                                <div class="service-one__item__icon">
+                                    <span class="icon-digital-marketing"></span>
+                                </div>
+                                <h3 class="service-one__item__title">
+                                    <a href="digital-marketing.html" data-lang="serviceItemTitle5"> البناء التجاري</a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>-->
+
+          <div class="row">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms">
+              <div class="portfolio-two__item portfolio-two__item-sm">
+                <div class="portfolio-two__thumb">
+                  <img
+                    src="assets/images/service/service-1-1.jpg"
+                    alt="nisoz"
+                  />
+                </div>
+                <div class="portfolio-two__hover">
+                  <div class="portfolio-two__hover-bottom">
+                    <h3 class="portfolio-two__title">
+                      <a href="services.html" data-lang="serviceItemTitle1"
+                        >إدارة المشاريع</a
+                      >
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <!-- folio-item -->
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms">
+              <div class="portfolio-two__item portfolio-two__item-sm">
+                <div class="portfolio-two__thumb">
+                  <img
+                    src="assets/images/service/service-1-2.jpg"
+                    alt="nisoz"
+                  />
+                </div>
+                <div class="portfolio-two__hover">
+                  <div class="portfolio-two__hover-bottom">
+                    <h3 class="portfolio-two__title">
+                      <a href="services.html" data-lang="serviceItemTitle2"
+                        >تطوير العقارات السكنية
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <!-- folio-item -->
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms">
+              <div class="portfolio-two__item portfolio-two__item-sm">
+                <div class="portfolio-two__thumb">
+                  <img
+                    src="assets/images/service/service-1-3.jpg"
+                    alt="nisoz"
+                  />
+                </div>
+                <div class="portfolio-two__hover">
+                  <div class="portfolio-two__hover-bottom">
+                    <h3 class="portfolio-two__title">
+                      <a href="services.html" data-lang="serviceItemTitle3"
+                        >خدمة استشارية
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <!-- folio-item -->
+            </div>
+
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms">
+              <div class="portfolio-two__item portfolio-two__item-sm">
+                <div class="portfolio-two__thumb">
+                  <img
+                    src="assets/images/service/service-1-4.jpg"
+                    alt="nisoz"
+                  />
+                </div>
+                <div class="portfolio-two__hover">
+                  <div class="portfolio-two__hover-bottom">
+                    <h3 class="portfolio-two__title">
+                      <a href="services.html" data-lang="serviceItemTitle4"
+                        >التجديد وإعادة التصميم
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <!-- folio-item -->
+            </div>
+
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms">
+              <div class="portfolio-two__item portfolio-two__item-sm">
+                <div class="portfolio-two__thumb">
+                  <img
+                    src="assets/images/service/service-1-5.jpg"
+                    alt="nisoz"
+                  />
+                </div>
+                <div class="portfolio-two__hover">
+                  <div class="portfolio-two__hover-bottom">
+                    <h3 class="portfolio-two__title">
+                      <a href="services.html" data-lang="serviceItemTitle5">
+                        البناء التجاري
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <!-- folio-item -->
+            </div>
+          </div>
+          <div class="text-center wow fadeInUp" data-wow-delay="500ms">
+            <h5 class="service-one__text" data-lang="serviceText">
+              لسنا مجرد شركة عقارية، نحن النمر ..اختيارك الأمثل لاستثمار عقاري
+              ناجح
+              <a href="services.html" class="nisoz-btn">
+                <span class="nisoz-btn__shape"></span
+                ><span class="nisoz-btn__shape"></span
+                ><span class="nisoz-btn__shape"></span
+                ><span class="nisoz-btn__shape"></span>
+                <span class="nisoz-btn__text" data-lang="mainSliderBtn1"
+                  >اكتشف المزيد
+                </span> </a
+              ><!-- /.btn -->
+            </h5>
+          </div>
+        </div>
+      </section>
+      <!-- Service Start -->
+      <!-- Call To Action Start -->
+      <section
+        class="cta-one jarallax"
+        data-jarallax
+        data-speed="0.3"
+        data-imgPosition="50% -100%"
+      >
+        <div
+          class="cta-one__bg jarallax-img"
+          style="background-image: url(assets/images/backgrounds/cta-bg-1.jpg)"
+        ></div>
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-md-9 col-xl-9 wow fadeInLeft"
+              data-wow-delay="200ms"
+            >
+              <div class="section-title">
+                <h2 class="section-title__title" data-lang="sectionTitleBG">
+                  استثمار اليوم، مستقبل مُشرق مع النمر
+                </h2>
+              </div>
+              <!-- section-title -->
+            </div>
+            <div
+              class="col-md-3 col-xl-3 text-end wow fadeInRight"
+              data-wow-delay="300ms"
+            >
+              <a href="services.html" class="nisoz-btn">
+                <span class="nisoz-btn__shape"></span
+                ><span class="nisoz-btn__shape"></span
+                ><span class="nisoz-btn__shape"></span
+                ><span class="nisoz-btn__shape"></span>
+                <span class="nisoz-btn__text" data-lang="mainSliderBtn1"
+                  >اكتشف المزيد
+                </span> </a
+              ><!-- /.btn -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Call To Action End -->
+      <!-- Feature Start -->
+      <section class="feature-one">
+        <div class="container">
+          <div class="feature-one__wrapper">
+            <div class="row">
+              <div
+                class="col-lg-4 col-md-6 wow fadeInUp text-center"
+                data-wow-delay="200ms"
+              >
+                <div class="feature-one__item">
+                  <h3
+                    class="feature-one__item__title"
+                    data-lang="featureItemTitle1"
+                  >
+                    معايير جودة عالمية في التنفيذ
+                  </h3>
+                  <p
+                    class="feature-one__item__text"
+                    data-lang="featureItemText1"
+                  >
+                    نلتزم بأعلى معايير الجودة في كل تفاصيل مشاريعنا، بدءًا من
+                    المواد المُستخدمة وحتى اللمسات النهائية، لضمان تسليم عقارات
+                    تفوق التوقعات.
+                  </p>
+                </div>
+                <!-- /.feature-box -->
+              </div>
+              <div
+                class="col-lg-4 col-md-6 wow fadeInUp d-flex text-center"
+                data-wow-delay="300ms"
+              >
+                <div class="feature-one__item">
+                  <h3
+                    class="feature-one__item__title"
+                    data-lang="featureItemTitle2"
+                  >
+                    تجربة عملاء استثنائية
+                  </h3>
+                  <p
+                    class="feature-one__item__text"
+                    data-lang="featureItemText2"
+                  >
+                    نقدم تجربة استثنائية مبنية على فهم احتياجات كل عميل بدقة، مع
+                    توفير دعم واستشارات متواصلة تضمن رحلة سلسة من البداية وحتى
+                    ما بعد التسليم.
+                  </p>
+                </div>
+                <!-- /.feature-box -->
+              </div>
+              <div
+                class="col-lg-4 col-md-6 wow fadeInUp text-center"
+                data-wow-delay="400ms"
+              >
+                <div class="feature-one__item">
+                  <!--<div class="feature-one__item__icon"><span class="icon-tick"></span></div>-->
+                  <h3
+                    class="feature-one__item__title"
+                    data-lang="featureItemTitle3"
+                  >
+                    الالتزام بالمواعيد بدقة وشفافية
+                  </h3>
+                  <p
+                    class="feature-one__item__text"
+                    data-lang="featureItemText3"
+                  >
+                    نحرص على احترام الجداول الزمنية المحددة لكل مرحلة من مراحل
+                    المشروع، مع تقديم تحديثات منتظمة تضمن الشفافية والوضوح
+                    لعملائنا.
+                  </p>
+                </div>
+                <!-- /.feature-box -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Feature End -->
+      <!-- Portfolio Start -->
+      <section class="portfolio-one">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section-title text-center">
+                <h2
+                  class="section-title__title"
+                  data-lang="portfoliotitleTitle"
+                >
+                  تعرف على فريقنا
+                </h2>
+              </div>
+              <!-- section-title -->
+            </div>
+          </div>
+          <div
+            dir="ltr"
+            class="portfolio-one__slider nisoz-owl__carousel owl-carousel"
+            data-owl-options='{
+            "loop": true,
+            "items": 3,
+            "smartSpeed": 1000, 
+            "autoplay": true, 
+            "autoplayTimeout": 6000, 
+            "autoWidth": true,
+            "center": true,
+            "nav": false,
+            "dots": false,
+            "margin": 30,
+            "responsive":{
+                "0":{
+                    "items": 1,
+                    "margin": 0
+                },
+                "768":{
+                    "items": 1.5
+                },
+                "992":{
+                    "items": 2
+                },
+                "1300":{
+                    "items": 3
+                }
+            }
+            }'
+          >
+            <div class="item">
+              <!-- slider-item-start -->
+              <div class="portfolio-one__item">
+                <div class="portfolio-one__thumb">
+                  <img
+                    src="assets/images/portfolio/portfolio-1-1.jpg"
+                    alt="nisoz"
+                  />
+                </div>
+                <div class="portfolio-one__hover">
+                  <div class="portfolio-one__hover-bottom">
+                    <div class="portfolio-one__cats">CEO</div>
+                    <h3 class="portfolio-one__title">Mr Mahmoud Khaled</h3>
+                  </div>
+                </div>
+              </div>
+              <!-- folio-item -->
+            </div>
+            <!-- slider-item-end -->
+            <div class="item">
+              <!-- slider-item-start -->
+              <div class="portfolio-one__item">
+                <div class="portfolio-one__thumb">
+                  <img
+                    src="assets/images/portfolio/portfolio-1-2.jpg"
+                    alt="nisoz"
+                  />
+                </div>
+                <div class="portfolio-one__hover">
+                  <div class="portfolio-one__hover-bottom">
+                    <div class="portfolio-one__cats">Eng. Ahmed Sharaf</div>
+                    <h3 class="portfolio-one__title">Commercial Director</h3>
+                  </div>
+                </div>
+              </div>
+              <!-- folio-item -->
+            </div>
+            <!-- slider-item-end -->
+            <div class="item">
+              <!-- slider-item-start -->
+              <div class="portfolio-one__item">
+                <div class="portfolio-one__thumb">
+                  <img
+                    src="assets/images/portfolio/portfolio-1-3.jpg"
+                    alt="nisoz"
+                  />
+                </div>
+                <div class="portfolio-one__hover">
+                  <div class="portfolio-one__hover-bottom">
+                    <div class="portfolio-one__cats">COO</div>
+                    <h3 class="portfolio-one__title">Eng Mahmoud Sharaf</h3>
+                  </div>
+                </div>
+              </div>
+              <!-- folio-item -->
+            </div>
+            <!-- slider-item-end -->
+
+            <div class="item">
+              <!-- slider-item-start -->
+              <div class="portfolio-one__item">
+                <div class="portfolio-one__thumb">
+                  <img
+                    src="assets/images/portfolio/portfolio-1.jpg"
+                    alt="nisoz"
+                  />
+                </div>
+                <div class="portfolio-one__hover">
+                  <div class="portfolio-one__hover-bottom">
+                    <div class="portfolio-one__cats">General Manager</div>
+                    <h3 class="portfolio-one__title">Eng Ahmed Tarek</h3>
+                  </div>
+                </div>
+              </div>
+              <!-- folio-item -->
+            </div>
+            <!-- slider-item-end -->
+
+            <div class="item">
+              <!-- slider-item-start -->
+              <div class="portfolio-one__item">
+                <div class="portfolio-one__thumb">
+                  <img
+                    src="assets/images/portfolio/portfolio-2.png"
+                    alt="nisoz"
+                  />
+                </div>
+                <div class="portfolio-one__hover">
+                  <div class="portfolio-one__hover-bottom">
+                    <div class="portfolio-one__cats">CFO</div>
+                    <h3 class="portfolio-one__title">Mr Omar Nossier</h3>
+                  </div>
+                </div>
+              </div>
+              <!-- folio-item -->
+            </div>
+            <!-- slider-item-end -->
+          </div>
+          <!-- slider-end -->
+        </div>
+      </section>
+      <!-- Portfolio End -->
+      <!--Testimonial Start-->
+      <section class="testimonial-one">
+        <div class="section-title text-center">
+          <h2 class="section-title__title   " data-lang="testimonialsTitle">آراء عملاءنا</h2>
+        </div>
+        <div class="container">
+          <div
+            dir="ltr"
+            class="testimonial-one__carousel nisoz-owl__carousel owl-theme owl-carousel"
+            data-owl-options='{
+            "items": 1,
+            "margin": 0,
+            "smartSpeed": 700,
+            "loop":true,
+            "autoplay": true,
+            "nav":true,
+            "dots":false,
+            "navText": ["<span class=\"icon-left-arrow\"></span>","<span class=\"icon-right-arrow\"></span>"]
+            }'
+          >
+            <div class="item mx-5 px-3" dir="rtl">
+              <div class="testimonial-one__item">
+                <div class="testimonial-one__content">
+                  <div class="testimonial-one__meta">
+                    <h5 class="testimonial-one__title">الاستاذ</h5>
+                    <span class="testimonial-one__designation"> إيمان عمر   </span>
+                  </div>
+                  <div class="testimonial-one__ratings">
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                  </div>
+                  <div class="testimonial-one__quote">
+                    تشكر شركة النمر على التزامها ومصداقيتها في التسليم قبل المواعيد المحددة مع تقديم مواصفات مميزة في كمبوند الدبلوماسيين كما تعبر عن امتنانها لمستر محمود نصير والمهندس أحمد نصير على جهودهم الكبيرة، متمنية لهم المزيد من النجاح
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="item mx-5 px-3" dir="rtl">
+              <div class="testimonial-one__item">
+                <div class="testimonial-one__content">
+                  <div class="testimonial-one__meta">
+                    <h5 class="testimonial-one__title">المستشار</h5>
+                    <span class="testimonial-one__designation">محمد محمود</span>
+                  </div>
+                  <div class="testimonial-one__ratings">
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                  </div>
+                  <div class="testimonial-one__quote">
+                    يعبر عن سعادته بالتعامل مع شركة النمر حيث استلم شقته في أقل من 6 أشهر يشكر المهندس أحمد شرف ومستر محمود نصير على مجهودهم الواضح في كل التفاصيل من المدخل الرخامي إلى المصعد والواجهة مؤكدًا على الالتزام بالمواعيد والجودة العالية
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="item mx-5 px-3" dir="rtl">
+              <div class="testimonial-one__item">
+                <div class="testimonial-one__content">
+                  <div class="testimonial-one__meta">
+                    <h5 class="testimonial-one__title">المهندس</h5>
+                    <span class="testimonial-one__designation">محمد رفعت</span>
+                  </div>
+                  <div class="testimonial-one__ratings">
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                  </div>
+                  <div class="testimonial-one__quote">
+                    انا اشتريت مع شركة النمر مع مستر / محمود نصير في النرجس من أكثر من سنتين و رشحتكوا لابن عمي و اتعامل مع الشركة واشتري شقة في البنفسج وبجد بشكركوا على الأمانة والاهتمام و المواعيد المظبوطة.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="item mx-5 px-3" dir="rtl">
+              <div class="testimonial-one__item">
+                <div class="testimonial-one__content">
+                  <div class="testimonial-one__meta">
+                    <h5 class="testimonial-one__title">المستشار</h5>
+                    <span class="testimonial-one__designation">   أحمد عبد الرحمن </span>
+                  </div>
+                  <div class="testimonial-one__ratings">
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                  </div>
+                  <div class="testimonial-one__quote">
+                    يعبر عن شكره لشركة النمر بعد شراء وتشطيب شقته في فيلا البنفسج 5 مع مستر محمود نصير والمهندس أحمد نصير يثني على جودة العمل سواء في التشطيب الداخلي أو الخارجي مشيدًا بالكاميرات الإنتركم، التفاصيل الدقيقة والاهتمام باللاندسكيب والصيانة بأعلى مستوى
+                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Testimonial End-->
+      <!-- Choose Start -->
+      <section class="choose-one">
+        <div class="choose-one__bg wow slideInLeft" data-wow-delay="200ms">
+          <div class="choose-one__bg__one"></div>
+          <div class="choose-one__bg__two"></div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5">
+              <div
+                class="choose-one__content wow fadeInUp"
+                data-wow-delay="500ms"
+              >
+                <div class="section-title">
+                  <h2
+                    class="section-title__title fs-80 line_heitgh"
+                    data-lang="chooseTitle"
+                  >
+                    لماذا نحن خيارك الأفضل؟
+                  </h2>
+                
+                </div>
+                <!-- section-title -->
+                <div class="choose-one__content__text pb-5">
+                  <p data-lang="chooseText">
+                    نحن رواد في تقديم حلول عقارية متميزة تجمع بين الابتكار
+                    والإتقان.
+                  </p>
+                  <p data-lang="chooseTextt">
+                    بخبرة ممتدة لأكثر من 25 عام في السوق العقاري، نضع معايير
+                    جديدة للجودة، حيث نحرص على تنفيذ كل مشروع بأعلى مستويات
+                    الاحترافية، باستخدام مواد متطورة وتقنيات حديثة لضمان تحقيق
+                    أعلى قيمة.
+                  </p>
+                  <p data-lang="chooseText1">
+                    نحن ندرك أهمية الوقت لعملائنا، ولهذا نفتخر بسجلنا المثالي
+                    بنسبة 100% في تسليم المشاريع في موعدها المحدد.
+                  </p>
+                  <p data-lang="chooseText2">
+                    كما نتميز بتقديم تجربة عميل متكاملة تُصمم خصيصًا لتلبية
+                    احتياجاتكم، مع دعم مستمر يضمن لكم رحلة استثنائية خالية من
+                    التعقيدات.
+                  </p>
+                  <p class="" data-lang="chooseText3">
+                    الثقة التي نكتسبها من عملائنا هي انعكاس لالتزامنا المستمر
+                    بالتفوق والشفافية في كل خطوة.
+                  </p>
+                </div>
+
+                <!--        <a href="about.html" class="nisoz-btn about-one__progress">
+                                    <span class="nisoz-btn__shape"></span><span class="nisoz-btn__shape"></span><span class="nisoz-btn__shape"></span><span class="nisoz-btn__shape"></span>
+                                    <span class="nisoz-btn__text" data-lang="mainSliderBtn1">		اكتشف المزيد	</span>
+                                </a>-->
+              </div>
+              <div class="choose-one__fact d-flex justify-content-between">
+                <div class="choose-one__fact__icon">
+                  <span class="icon-project-management"></span>
+                </div>
+                <!-- /.choose-fact__icon -->
+                <div class="choose-one__fact__count">
+                  <span class="count-box">
+                    <span
+                      class="count-text"
+                      dir="ltr"
+                      data-stop="50"
+                      data-speed="1500"
+                    ></span> </span
+                  >+
+                </div>
+                <!-- /.choose-fact__count -->
+                <h3 class="choose-one__fact__title" data-lang="chooseTitle1">
+                  مشروعا منجزا
+                </h3>
+                <!-- /.choose-fact__title -->
+              </div>
+              <!-- /.choose-fact -->
+            </div>
+            <div class="col-lg-7">
+              <div class="nisoz-stretch-element-inside-column">
+                <div
+                  class="nisoz-stretch__image wow slideInRight"
+                  data-wow-delay="400ms"
+                >
+                  <img
+                    src="assets/images/resources/choose-1.jpg"
+                    alt="ogency"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Choose End -->
+      <!-- Call To Action Start -->
+      <section class="fact-one">
+        <div
+          class="fact-one__bg"
+          style="background-image: url(assets/images/shapes/funfact-bg-1.png)"
+        ></div>
+        <div class="container">
+          <div class="row">
+            <!-- <div class="col-lg-3 col-md-6 wow fadeInUp animated" data-wow-delay="100ms">
+                        <div class="fact-one__item text-center">
+                            <div class="fact-one__item__icon"><span class="icon-campaign"></span></div> 
+                            <div class="fact-one__item__count">
+                                <span class="count-box">
+                                    <span class="count-text" data-stop="25" data-speed="1500"></span>
+                                </span>
+                            </div> 
+                            <h3 class="fact-one__item__title" data-lang="factoneItemTitle1">عامًا في السوق العقاري المصري</h3> 
+                        </div> 
+                    </div>  -->
+
+            <div
+              class="col-lg-3 col-md-6 wow fadeInUp animated"
+              data-wow-delay="200ms"
+            >
+              <div class="fact-one__item text-center">
+                <div class="fact-one__item__icon">
+                  <span class="icon-recommend"></span>
+                </div>
+                <!-- /.fact-one__icon -->
+                <div class="fact-one__item__count">
+                  <span class="count-box">
+                    +<span
+                      class="count-text"
+                      data-stop="100"
+                      data-speed="1500"
+                    ></span>
+                  </span>
+                </div>
+                <!-- /.fact-one__count -->
+                <h3 class="fact-one__item__title" data-lang="factoneItemTitle2">
+                  موظف
+                </h3>
+                <!-- /.fact-one__title -->
+              </div>
+              <!-- /.fact-one__item -->
+            </div>
+            <!-- /.col-lg-3 col-md-6 -->
+
+            <div
+              class="col-lg-3 col-md-6 wow fadeInUp animated"
+              data-wow-delay="300ms"
+            >
+              <div class="fact-one__item text-center">
+                <div class="fact-one__item__icon">
+                  <span class="icon-increment"></span>
+                </div>
+                <!-- /.fact-one__icon -->
+                <div class="fact-one__item__count">
+                  <span class="count-box">
+                    +<span
+                      class="count-text"
+                      data-stop="100"
+                      data-speed="1500"
+                    ></span>
+                  </span>
+                </div>
+                <!-- /.fact-one__count -->
+                <h3 class="fact-one__item__title" data-lang="factoneItemTitle3">
+                  عميلًا متكررًا
+                </h3>
+                <!-- /.fact-one__title -->
+              </div>
+              <!-- /.fact-one__item -->
+            </div>
+            <!-- /.col-lg-3 col-md-6 -->
+
+            <div
+              class="col-lg-3 col-md-6 wow fadeInUp animated"
+              data-wow-delay="300ms"
+            >
+              <div class="fact-one__item text-center">
+                <div class="fact-one__item__icon">
+                  <span class="icon-increment"></span>
+                </div>
+                <!-- /.fact-one__icon -->
+                <div class="fact-one__item__count">
+                  <span class="count-box">
+                    +<span
+                      class="count-text"
+                      data-stop="1000"
+                      data-speed="1500"
+                    ></span>
+                  </span>
+                </div>
+                <!-- /.fact-one__count -->
+                <h3 class="fact-one__item__title" data-lang="factoneItemTitle5">
+                  عميلًا
+                </h3>
+                <!-- /.fact-one__title -->
+              </div>
+              <!-- /.fact-one__item -->
+            </div>
+            <!-- /.col-lg-3 col-md-6 -->
+
+            <div
+              class="col-lg-3 col-md-6 wow fadeInUp animated"
+              data-wow-delay="400ms"
+            >
+              <div class="fact-one__item text-center">
+                <div class="fact-one__item__icon">
+                  <span class="icon-consulting"></span>
+                </div>
+                <!-- /.fact-one__icon -->
+                <div class="fact-one__item__count">
+                  <span class="count-box">
+                    +<span
+                      class="count-text"
+                      data-stop="50"
+                      data-speed="1500"
+                    ></span>
+                  </span>
+                </div>
+                <!-- /.fact-one__count -->
+                <h3 class="fact-one__item__title" data-lang="factoneItemTitle4">
+                  مشروعًا تم تسليمها في القاهرة الجديدة
+                </h3>
+                <!-- /.fact-one__title -->
+              </div>
+              <!-- /.fact-one__item -->
+            </div>
+            <!-- /.col-lg-3 col-md-6 -->
+          </div>
+        </div>
+      </section>
+      <!-- Call To Action End -->
+      <!-- Blog Start -->
+
+      <section class="blog-one">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 wow fadeInUp" data-wow-delay="100ms">
+              <div class="section-title text-center">
+                <h2 class="section-title__title">News & articles</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-12 wow fadeInUp" data-wow-delay="200ms">
+              <div class="blog-one__item">
+                <div class="blog-one__image">
+                  <img
+                    src="assets/images/team/1.PNG"
+                    width="370"
+                    height="280"
+                    alt="Five ways that can develop your business"
+                  />
+                </div>
+                <div class="blog-one__content">
+                  <h6 class="blog-one__title">
+                    <a
+                      href="https://www.youtube.com/watch?v=-zwufwFIhSg"
+                      data-lang="text_blog_index"
+                      >تعرف على أبرز ما يميز شركة النمر للتطوير العقاري،
+                      وتوسعاتنا المستقبلية.</a
+                    >
+                  </h6>
+                  <p class="text-muted" data-lang="text_blog_index1">
+                    تسير شركة النمر بخطى ثابتة وناجحة منذ 8 سنوات؛ بفضل تخطيطها
+                    الاستراتيجي الناجح. وتسعى الفترة القادمة من التوسع في بناء
+                    وحدات تجارية وإدارية، بالإضافة إلى توسعات مستقبلية في
+                    العاصمة الإدارية الجديدة.
+                  </p>
+                  <br />
+
+                  <a
+                    href="https://www.youtube.com/watch?v=-zwufwFIhSg"
+                    class="nisoz-btn d-flex justify-content-center"
+                  >
+                    <span
+                      class="nisoz-btn__text px-2"
+                      data-lang="btn_blog_index1"
+                      >المزيد<span class="icon-right-arrow"></span
+                    ></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 wow fadeInUp" data-wow-delay="200ms">
+              <div class="blog-one__item">
+                  <div class="blog-one__image">
+                      <img src="assets/images/team/3.PNG" width="370" height="280" alt="Five ways that can develop your business">
+                  </div>
+                  <div class="blog-one__content px-0">
+                      <h6 class="blog-one__title">
+                          <a href="https://www.instagram.com/reel/DAD7BHcoS3j/?igsh=N2E1d2xsNjlrMGUz" data-lang="text_blog_index2">استلم وحدتك خلال 3 شهور
+                              وتسلم أوراقك في اليوم نفسه مع شركة النمر للتطوير العقاري
+                              </a>
+                      </h6>
+                      <p class="text-muted" data-lang="text_blog_index3">بأكثر من 8 سنوات من الخبرة، وتصميم أكثر من 70 مشروعًا، تميزت شركة النمر للتطوير العقاري بعدة مميزات، أهمها هو التسليم خلال 3 شهور من توقيع العقود واستلام كامل الأوراق في اليوم نفسه.
+                          بالإضافة لمميزات أخرى مثل الأسقف العالية وال garbage tube  وصيانة الوحدة لمدة 20 سنة. 
+                          <br>
+                      <br>
+                      <br>
+                  </p>
+                          
+                          <a href="https://www.instagram.com/reel/DAD7BHcoS3j/?igsh=N2E1d2xsNjlrMGUz" class="nisoz-btn d-flex justify-content-center">
+                          <span class="nisoz-btn__text px-2" data-lang="btn_blog_index1">المزيد<span class="icon-right-arrow"></span></span>
+                      </a>
+                  </div>
+              </div>
+          </div>
+
+            <div class="col-lg-4 col-md-4 col-12 wow fadeInUp" data-wow-delay="200ms">
+              <div class="blog-one__item">
+                <div class="blog-one__image">
+                  <img
+                    src="assets/images/team/2.jpeg"
+                    width="370"
+                    height="280"
+                    alt="Five ways that can develop your business"
+                  />
+                </div>
+                <div class="blog-one__content">
+                  <h6 class="blog-one__title">
+                    <a
+                      href="https://www.instagram.com/reel/DAD7BHcoS3j/?igsh=N2E1d2xsNjlrMGUz"
+                      data-lang="text_blog_index2"
+                      >استلم وحدتك خلال 3 شهور وتسلم أوراقك في اليوم نفسه مع
+                      شركة النمر للتطوير العقاري
+                    </a>
+                  </h6>
+                  <p class="text-muted" data-lang="text_blog_index3">
+                    بأكثر من 8 سنوات من الخبرة، وتصميم أكثر من 70 مشروعًا، تميزت
+                    شركة النمر للتطوير العقاري بعدة مميزات، أهمها هو التسليم
+                    خلال 3 شهور من توقيع العقود واستلام كامل الأوراق في اليوم
+                    نفسه. بالإضافة لمميزات أخرى مثل الأسقف العالية وال garbage
+                    tube وصيانة الوحدة لمدة 20 سنة.
+                    <br />
+                    <br />
+                    <br />
+                  </p>
+
+                  <a
+                    href="https://www.instagram.com/reel/DAD7BHcoS3j/?igsh=N2E1d2xsNjlrMGUz"
+                    class="nisoz-btn d-flex justify-content-center"
+                  >
+                    <span
+                      class="nisoz-btn__text px-2"
+                      data-lang="btn_blog_index1"
+                      >المزيد<span class="icon-right-arrow"></span
+                    ></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Blog End -->
+      <!-- Call To Action Start -->
+      <section class="cta-two m-0">
+        <div class="container">
+          <div class="cta-two__info-top wow fadeInUp" data-wow-delay="200ms">
+            <div
+              class="cta-two__bg"
+              style="background-image: url(assets/images/shapes/cta-bg-2.png)"
+            ></div>
+            <div class="section-title">
+              <h2 class="section-title__title fs-30" data-lang="CallTitle">
+                هل تبحث عن شريك موثوق لاستثمارات ناجحة ومضمونة؟
+              </h2>
+            </div>
+            <!-- section-title -->
+            <a href="contact.html" class="cta-two__icon"
+              ><span class="icon-long-arrow"></span
+            ></a>
+          </div>
+        </div>
+      </section>
+      <!-- Call To Action End -->
+      <!-- Footer Start -->
+
+      <footer class="main-footer">
+        <div
+          class="main-footer__bg"
+          style="background-image: url(assets/images/shapes/footer-bg-1.png)"
+        ></div>
+        <div class="container">
+          <div class="main-footer__top wow fadeInUp" data-wow-delay="100ms">
+            <a href="index.html" class="main-footer__logo">
+              <img
+                src="assets/images/footer-logo.png"
+                alt="nisoz"
+                width="96"
+                height="34"
+              /> </a
+            ><!-- /.footer-logo -->
+            <div class="col-12 col-lg-6 d-flex justify-content-center">
+              <p class="text-white text-center" data-lang="footerPragraph">
+                النمر اسمٌ يرتبط بالثقة في مجال العقارات لأكثر من 25 عامًا. نقدم
+                خبرة شاملة تمتد من البناء إلى التطوير والتعاقد، ونضمن لك مرافقتك
+                في كل خطوة لتحقيق استثمار آمن وناجح بنسبة 100%.
+              </p>
+            </div>
+            <div class="main-footer__social">
+              <a href="https://www.facebook.com/elnemrdevelopment"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="https://www.instagram.com/elnemr_development"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://www.linkedin.com/company/elnemr-development/"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+            </div>
+            <!-- /.footer-social -->
+          </div>
+          <!-- footer-top -->
+          <div class="row d-flex justify-content-between">
+            <div class="col-lg-2 col-md-4 wow fadeInUp" data-wow-delay="200ms">
+              <div class="main-footer__navmenu">
+                <ul>
+                  <li><a href="about.html" data-lang="footerAbout">عنّا</a></li>
+                  <li>
+                    <a href="services.html" data-lang="footerServices"
+                      >ماذا نقدم</a
+                    >
+                  </li>
+                  <li>
+                    <a href="product-details.html" data-lang="footerBlog"
+                      >آراء العملاء</a
+                    >
+                  </li>
+                </ul>
+                <!-- /.list-unstyled -->
+              </div>
+              <!-- /.footer-menu -->
+            </div>
+            <div class="col-lg-2 col-md-4 wow fadeInUp" data-wow-delay="300ms">
+              <div class="main-footer__navmenu">
+                <ul>
+                  <li>
+                    <a href="contact.html" data-lang="footercontact"
+                      >تواصل معنا</a
+                    >
+                  </li>
+                  <li>
+                    <a href="portfolio.html" data-lang="footerprojects"
+                      >مشاريعنا
+                    </a>
+                  </li>
+                </ul>
+                <!-- /.list-unstyled -->
+              </div>
+              <!-- /.footer-menu -->
+            </div>
+            <div class="col-lg-3 col-md-4 wow fadeInUp" data-wow-delay="400ms">
+              <div class="main-footer__about">
+                <p class="main-footer__about__text" data-lang="footerAbouText2">
+                  بيرل مول ، B6 ، F2 ، مكتب 211 ، القاهرة الجديدة ، مصر
+                </p>
+                <p class="main-footer__about__text" data-lang="footerAbouText1">
+                  فيلا 64 بجوار القاهرة الجديدة أكاديمية, التجمع الخامس, القاهرة
+                  الجديدة, مصر
+                </p>
+
+                <ul class="main-footer__about__info">
+                  <li>
+                    <span class="fas fa-phone-square mx-2"></span
+                    ><a href="tel:+923680006800">16893</a>
+                  </li>
+                  <li>
+                    <span class="fas fa-envelope mx-2"></span
+                    ><a href="mailto:needhelp@company.com"
+                      >info@nemr-company.com</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- /.footer-about -->
+            </div>
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.container -->
+      </footer>
+      <!-- /.main-footer -->
+
+      <!--  <section class="copyright text-center">
+        <div class="container wow fadeInUp" data-wow-delay="500ms">
+            <p class="copyright__text">© Copyright <span class="dynamic-year"></span>by <a href="index.html">Nisoz Template</a></p>
+        </div>
+    </section>-->
+    </div>
+    <!-- /.page-wrapper -->
+
+    <div class="mobile-nav__wrapper">
+      <div class="mobile-nav__overlay mobile-nav__toggler"></div>
+      <!-- /.mobile-nav__overlay -->
+      <div class="mobile-nav__content">
+        <span class="mobile-nav__close mobile-nav__toggler"
+          ><i class="fa fa-times"></i
+        ></span>
+        <div class="logo-box">
+          <a href="index.html" aria-label="logo image"
+            ><img
+              src="assets/images/logo-light.png"
+              width="96"
+              height="auto"
+              alt="nisoz"
+          /></a>
+        </div>
+        <!-- /.logo-box -->
+        <div class="mobile-nav__container"></div>
+        <!-- /.mobile-nav__container -->
+        <ul class="mobile-nav__contact list-unstyled">
+          <li>
+            <i class="fas fa-envelope col-2"></i>
+            <span class="col-1"></span>
+            <a href="info@nemr-company.com" class="col-8">
+              info@nemr-company.com</a
+            >
+          </li>
+          <li>
+            <i class="fa fa-phone-alt col-2"></i>
+            <span class="col-1"></span>
+            <a href="tel:16893" class="col-8">16893</a>
+          </li>
+        </ul>
+        <!-- /.mobile-nav__contact -->
+        <div class="mobile-nav__social justify-content-between w-50">
+          <a href="https://www.facebook.com/elnemrdevelopment"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a href="https://www.instagram.com/elnemr_development"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://www.linkedin.com/company/elnemr-development/"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+        </div>
+        <!-- /.mobile-nav__social -->
+      </div>
+      <!-- /.mobile-nav__content -->
+    </div>
+    <!-- /.mobile-nav__wrapper -->
+
+    <div class="search-popup">
+      <div class="search-popup__overlay search-toggler"></div>
+      <!-- /.search-popup__overlay -->
+      <div class="search-popup__content">
+        <form role="search" method="get" class="search-popup__form" action="#">
+          <input type="text" id="search" placeholder="Search Here..." />
+          <button type="submit" aria-label="search submit" class="nisoz-btn">
+            <span class="nisoz-btn__shape"></span
+            ><span class="nisoz-btn__shape"></span
+            ><span class="nisoz-btn__shape"></span
+            ><span class="nisoz-btn__shape"></span>
+            <span class="nisoz-btn__text"
+              ><i class="icon-magnifying-glass"></i
+            ></span>
+          </button>
+        </form>
+      </div>
+      <!-- /.search-popup__content -->
+    </div>
+    <!-- /.search-popup -->
+
+    <!-- back-to-top-start -->
+    <a href="#" class="scroll-top">
+      <svg
+        class="scroll-top__circle"
+        width="100%"
+        height="100%"
+        viewBox="-1 -1 102 102"
+      >
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+      </svg>
+    </a>
+    <!-- back-to-top-end -->
+
+    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>
+    <script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
+    <script src="assets/vendors/jarallax/jarallax.min.js"></script>
+    <script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
+    <script src="assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
+    <script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
+    <script src="assets/vendors/nouislider/nouislider.min.js"></script>
+    <script src="assets/vendors/odometer/odometer.min.js"></script>
+    <script src="assets/vendors/tiny-slider/tiny-slider.min.js"></script>
+    <script src="assets/vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendors/wnumb/wNumb.min.js"></script>
+    <script src="assets/vendors/jquery-circleType/jquery.circleType.js"></script>
+    <script src="assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
+    <script src="assets/vendors/tilt/tilt.jquery.js"></script>
+    <script src="assets/vendors/wow/wow.js"></script>
+    <script src="assets/vendors/isotope/isotope.js"></script>
+    <script src="assets/vendors/countdown/countdown.min.js"></script>
+
+    <!-- template js -->
+    <script src="assets/js/nisoz.js"></script>
+
+    <script src="assets/js/translation.js"></script>
+  </body>
+</html>

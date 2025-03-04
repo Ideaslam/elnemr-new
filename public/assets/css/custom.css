@@ -1,0 +1,130 @@
+/*  
+.mobile-nav__btn {
+    display: none;
+    margin-right: 15px;
+}
+
+.mobile-nav__toggler {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color: #ffffff;
+    color: #C5A47E;  
+    font-size: 20px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    border: 2px solid #C5A47E;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.mobile-nav__toggler:hover {
+    background-color: #C5A47E;
+    color: #ffffff;
+}
+
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.9);
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    overflow-y: auto;
+}
+
+.mobile-menu.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.mobile-menu__content {
+    padding: 50px 20px;
+}
+
+.mobile-menu__close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #C5A47E;
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.mobile-menu__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.mobile-menu__list li {
+    margin: 20px 0;
+}
+
+.mobile-menu__list li a {
+    color: #ffffff;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    display: block;
+    padding: 10px;
+}
+
+.mobile-menu__list li a:hover {
+    color: #C5A47E;
+}
+
+@media (max-width: 991px) {
+    .mobile-nav__btn {
+        display: block;
+    }
+    
+    .main-menu__nav {
+        display: none;
+    }
+} */
+
+
+.icon {
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    /* align-items: center; */
+    align-content: center;
+}
+
+
+
+.section-title-2{
+    display: flex ;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.replace-qmark {
+    /* For example, turn them red: */
+    color: red;
+    font-weight: bold;
+    /* or hide them and insert something else: */
+    visibility: hidden;
+    position: relative;
+  }
+  
+  .replace-qmark::after {
+    content: "!";
+    visibility: visible;
+    position: absolute;
+    left: 0;
+    /* any styling you like */
+  }

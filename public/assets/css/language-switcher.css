@@ -1,0 +1,32 @@
+.language-switcher {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.lang-btn {
+    background: none;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: color 0.3s ease;
+}
+
+.lang-btn:hover {
+    color: #e0a965;
+}
+
+.lang-text {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* RTL Support */
+[dir="rtl"] .language-switcher {
+    margin-right: 0;
+    margin-left: 20px;
+}
